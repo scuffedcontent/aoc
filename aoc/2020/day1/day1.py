@@ -1,26 +1,25 @@
-# Find the two numbers that add to 2020 
-# Then multiply their intergers
+'''
+Advent of Code
+Day 1
+Python
 
-# btw for all those whom fall upon this repo
-# this truly is the lazy mans way of solving
-# this puzzle because of the amount of times you
-# need to iterate through this list of numbers
+'''
 
+def part_one(lines):
+    for j in lines:
+        for k in lines:
+            if j + k == 2020:
+                return  j * k
 
-# Part One
+def part_two(lines):
+    for j in lines:
+        for k in lines:
+            for l in lines:
+                if j + k + l == 2020:
+                    return  j * k * l
 
-with open("input.txt") as f:
-    data = [int(line) for line in f]
+with open('input.txt') as file:
+    inputs = [int(line) for line in file ]
 
-for j in data:
-    for k in data:
-        if j + k == 2020:
-            print('Part One answer is: ', j * k)
-
-# Part Two
-
-for j in data:
-    for k in data:
-        for l in data:
-            if j + k + l == 2020:
-                print('Part Two answer is: ', j * k * l)
+print('Part One answer : ', part_one(inputs))
+print('Part Two answer : ', part_two(inputs))
