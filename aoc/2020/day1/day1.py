@@ -3,7 +3,7 @@
 
 # btw for all those whom fall upon this repo
 # this truly is the lazy mans way of solving
-# this puzzle because of amount of times you
+# this puzzle because of the amount of times you
 # need to iterate through this list of numbers
 
 
