@@ -13,4 +13,9 @@ with open("input.txt") as file:
 
 print('Part One answer : ', part_one(inputs))
 
+sums = []
 
+for i in range(2, len(inputs)):
+    sums.append(inputs[i]+inputs[i-1]+inputs[i-2])
+
+print("Part Two answer : ", part_one(sums))
