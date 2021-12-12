@@ -10,4 +10,4 @@ for line in data:
 
 
 
-print("solution for part 1 : ", )
+print("solution for part 2 : ", )
