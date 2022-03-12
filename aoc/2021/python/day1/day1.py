@@ -8,7 +8,7 @@ def part_one(lines):
             count+=1
     return count
 
-with open("input.txt") as file:
+with open("/home/hakku/work/git_repo/aoc/2021/inputs/input.txt") as file:
     inputs = [int(line) for line in file]
 
 print('Part One answer : ', part_one(inputs))

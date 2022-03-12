@@ -34,7 +34,7 @@ def part_two(lines):
     print(x,y,a)
     return x*y
 
-with open("input.txt") as file:
+with open("/home/hakku/work/git_repo/aoc/2021/python/day2/input.txt") as file:
     data = file.read().splitlines()
 print(part_one(data))
 print(part_two(data))
