@@ -1,16 +1,16 @@
 using System;
+using System.IO;
 
-namespace main
+namespace ReadWriteFiles
 {
     class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
-            string[] lines = System.IO.File.ReadAllLines(@"/home/hakku/work/git_repo/aoc/2021/C#/data/day1.txt");
-            
-            foreach(string line in lines)
+            if (File.Exists("day1.txt"))
             {
-                Console.WriteLine("\t" + line);
+                string[] lines = File.ReadAllLines(@"/data/day1.txt");
+                Console.WriteLine(lines);
             }
         }
     }
