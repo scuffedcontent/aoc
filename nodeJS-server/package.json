@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "name": "nodejs-app",
+  "version": "1.0.0",
+  "description": "nodeJS server-client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "scuffedcontent",
+  "license": "ISC"
+}
