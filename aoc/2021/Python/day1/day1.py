@@ -1,5 +1,6 @@
 # Advent of Code 2021 Python
 # This is a test
+# test
 
 def part_one(lines):
     count=0
@@ -8,8 +9,8 @@ def part_one(lines):
             count+=1
     return count
 
-with open("/home/hakku/work/git_repo/aoc/2021/inputs/input.txt") as file:
-    inputs = [int(line) for line in file]
+with open("input.txt") as file:
+    inputs = [int(line) for line in file.read().strip().split("\n")]
 
 print('Part One answer : ', part_one(inputs))
 
