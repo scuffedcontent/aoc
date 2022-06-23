@@ -1,0 +1,16 @@
+{
+  "type":"module",
+  "dependencies": {
+    "node-fetch": "^3.2.6"
+  },
+  "name": "chessdotcom",
+  "version": "1.0.0",
+  "main": "get.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
