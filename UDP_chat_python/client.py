@@ -3,7 +3,7 @@ import threading
 
 username = input("Choose a username: ")
 
-client = socket.socket(socket.AF_NET, socket.SOCK_STREAM)
+client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect(('10.0.0.175', 22222))
 
 
