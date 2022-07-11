@@ -1,8 +1,5 @@
 '''
-Given an array 
-traverse the array
-return True if there is a duplicate integer 
-return False if there is not
+Given an array return True if duplicate return False if not
 
 '''
 
