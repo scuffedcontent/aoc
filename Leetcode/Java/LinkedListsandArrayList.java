@@ -25,7 +25,7 @@ class LinkdListsandArrayList {
 
         System.out.println("Total time for Linked List: " + totalTimeLL);
         System.out.println("Total time for Array List: " + totalTimeAL);
-        arrayList.remove(index:5000);
-        linkedList.remove(index:5000);
+        arrayList.remove(index: 5000);
+        linkedList.remove(index: 5000);
     }
 }
