@@ -1,6 +1,5 @@
 # Advent of Code 2021 Python
-# This is a test
-# test
+
 
 def part_one(lines):
     count=0

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+        <title>React 18</title>
+    </head>
+
+    <body>
+        <div id="root"></div>
+    
+        <script type="text/babel">
+            let emojis = ["❤", "💋", "😎"];
+
+            ReactDOM.render(
+                <ul>
+                    <li>{emojis[0]}</li>
+                    <li>{emojis[1]}</li>
+                    <li>{emojis[2]}</li>
+                </ul>,
+                document.getElementById("root")
+            );
+
+        </script>
+    </body>
+</html>
