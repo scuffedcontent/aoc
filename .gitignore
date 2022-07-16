@@ -1,7 +1,9 @@
 */node_modules/
-*.settings/
-*.classpath/
-*.project/
-*.env/
-*.metadata/
+*.settings
+*.classpath
+*.project
+*.env
+*.metadata
+*.vscode
+*.out
 
