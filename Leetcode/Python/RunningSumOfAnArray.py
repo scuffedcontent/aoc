@@ -26,12 +26,12 @@ class FastSolution:
             sum+=nums[i]
             nums[i] = sum
         return nums
-        
+
 class FastestSolution:
     def runningSum(self, nums: List[int]) -> List[int]:
         p = 0
-        for i, x in enumerate(nums):
-            p += x
+        for i, v in enumerate(nums):
+            p += v
             nums[i] = p
         return nums
 
