@@ -1,3 +1,11 @@
+'''
+Leetcode
+Remove the Duplicates from an Array
+Example Input => [1, 1, 2, 3, 3, 4, 5] Output => [1, 2, 3, 4, 5]
+
+'''
+
+
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         next_non_duplicate = 1
