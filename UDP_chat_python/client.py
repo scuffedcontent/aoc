@@ -1,10 +1,16 @@
+from multiprocessing import process
 import socket
 import threading
 
 username = input("Choose a username: ")
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client.connect(('10.0.0.238', 22222))
+
+
+host = process.env.myHost
+port = process.env.myPort
+
+client.connect((port, host))
 
 
 

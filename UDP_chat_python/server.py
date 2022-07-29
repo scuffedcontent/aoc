@@ -1,8 +1,10 @@
+from multiprocessing import process
 import threading
 import socket
 
-host = '10.0.0.238'
-port = 22222
+host = process.env.myHost
+port = process.env.myPort
+
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind((host, port))
