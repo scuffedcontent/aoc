@@ -5,3 +5,5 @@ export default function TodoList() {
     <div>TodoList</div>
   )
 }
+
+export default TodoLisot
