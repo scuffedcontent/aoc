@@ -20,3 +20,5 @@ src/*.o
 *.bk*
 hyperfine/**
 benchmark/**
+*.xml
+*.idea
