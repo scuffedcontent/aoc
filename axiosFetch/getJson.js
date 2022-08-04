@@ -14,15 +14,15 @@ async function getWithAxios() {
 }
 
 
-async function getData() {
+async function getData(player) {
     const url = 'http://randomuser.me/api'
     const res = await fetch(url);
     const data = await res.json();
     console.log(data)
 }
 
-getWithAxios()
+//getWithAxios()
 
-//getData();
+getData();
 
 
