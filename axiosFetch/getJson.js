@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 async function getWithAxios() {
     const axios = require('axios');
     axios.get('http://randomuser.me/api')
@@ -53,5 +53,3 @@ getWithAxios()
 
 //getData();
 
-
->>>>>>> 12362e50a9cccc93485c126b395fa10403051f39
