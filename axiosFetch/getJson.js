@@ -26,8 +26,6 @@ async function getData(player) {
 
 getData();
 
-
-=======
 async function getWithAxios() {
     const axios = require('axios');
     axios.get('http://randomuser.me/api')
