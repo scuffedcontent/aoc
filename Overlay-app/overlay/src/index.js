@@ -1,4 +1,4 @@
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow, contentTracing } = require('electron');
 const path = require('path');
 require("electron-reload")(__dirname)
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
@@ -10,10 +10,10 @@ if (require('electron-squirrel-startup')) {
 const createWindow = () => {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
-    width: 920,
-    height: 1268,
-    maxHeight: 920,
-    maxWidth: 1268,
+    height: 1280,
+    width:1480,
+    maxHeight: 1280,
+    maxWidth: 1480,
     frame: false,
     autoHideMenuBar: true,
     webPreferences: {
