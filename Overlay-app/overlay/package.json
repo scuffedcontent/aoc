@@ -47,7 +47,7 @@
   "dependencies": {
     "electron-reload": "^2.0.0-alpha.1",
     "electron-squirrel-startup": "^1.0.0",
-    "systeminformation": "^5.11.14"
+    "systeminformation": "^5.12.6"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.63",
