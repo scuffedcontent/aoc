@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+.settings/
+.classpath/
+.project/
+/build/
+=======
+/build/
+*.settings/
+*.classpath/
+*.project/
+
+>>>>>>> bd3003a148de1eaa00c5c54758c3057f0bee774b
+
