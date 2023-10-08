@@ -22,3 +22,7 @@ hyperfine/**
 benchmark/**
 *.xml
 *.idea
+*squashfs-root
+*__pycache__
+*.toml
+*.lock
