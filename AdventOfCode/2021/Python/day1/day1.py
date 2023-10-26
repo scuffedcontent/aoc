@@ -9,8 +9,8 @@ def part_one(lines):
     return count
 
 with open("input.txt") as file:
-    inputs = [int(line) for line in file.read().strip().split("\n")]
-
+    inputs = [line for line in file.read()]
+    print(inputs)
 print('Part One answer : ', part_one(inputs))
 
 sums = []
